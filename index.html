@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="container" id="container">
+    <div class="task"> <span class="task"> Tasks</span> List</div>
+    
+    <i id="plus1" class="fa-solid fa-circle-plus" onclick="addpop()" ></i>
+
+        <span id="add"> Add list</span>
+</div>
+
+<div class="box" id="box">
+    <label class="add" for="">Add New List</label><br>
+    <input type="text" name="name" placeholder="Enter your task" id="name" value=""> <br>
+   
+    <button onclick="changeHere()">Add</button>
+   <button onclick="hide()">Close</button>
+
+</div>
+
+
+<div id="popup2">
+
+
+    <p>Add New Task</p>
+    
+    <input type="text" placeholder="Enter your task" value="" id="card2" name="card"><br><br>
+    
+    <button onclick="addtask2()">Add</button>
+    <button>Close</button>
+    
+    </div>
+
+
+<div id="parent"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="index.js">  </script>
+</body>
+</html>
